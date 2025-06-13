@@ -34,11 +34,11 @@ a {
 }
 
 a:hover {
-  color: #ffc200 !important;
+  color: #60C4F6 !important;
 }
 
 strong:hover {
-  color: #ffc200 !important;
+  color: #60C4F6 !important;
 }
 
 .navbar-brand .uil {
@@ -97,7 +97,7 @@ strong {
 }
 
 .custom-btn:hover {
-  color: #ffc200;
+  color: #60C4F6;
 }
 
 .custom-btn.custom-btn-bg {
@@ -106,7 +106,7 @@ strong {
 }
 
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
+  background: #60C4F6;
   color: #ffffff !important;
 }
 
@@ -123,7 +123,7 @@ strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: #60C4F6;
 }
 
 .animated-item {
@@ -235,7 +235,7 @@ strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #60C4F6;
   font-weight: bold;
 }
 
@@ -327,7 +327,7 @@ strong {
 }
 
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #60C4F6;
 }
 
 .dark-mode .navbar[class*="headroom--not-top"] {
@@ -361,13 +361,13 @@ strong {
 }
 
 .dark-mode .arrow-icon {
-  color: #ffc200 !important;
+  color: #60C4F6 !important;
 }
 
-.card {
+.dark-mode .card {
   background-color: transparent;
-  border-color: #fff;
-  border-style: solid;
+  border: 3px solid grey; /* Thick grey border */
+  box-shadow: 0 0 10px grey; /* Blur effect */
 }
 
 .dark-mode .owl-carousel .owl-nav button.owl-next,
@@ -464,7 +464,7 @@ strong {
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
+  color: #60C4F6;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -504,11 +504,11 @@ strong {
 
 .contact-form .form-control:hover,
 .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #60C4F6;
 }
 
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #60C4F6;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -541,7 +541,7 @@ strong {
 }
 
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #60C4F6;
 }
 
 @media (min-width: 1270px) {
@@ -1219,7 +1219,8 @@ section:last-of-type p:last-of-type {
 
 .card {
   margin: 0 0.5em;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  box-shadow: 2px 6px 8px 6px rgba(22, 22, 26, 0.18);
+  border-radius: 20px
 }
 
 .carousel-control-prev,
@@ -1231,8 +1232,8 @@ section:last-of-type p:last-of-type {
   opacity: 1;
   border-style: none;
   background: transparent;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 100%;
+  transform: translateY(-25%);
 }
 
 @media (min-width: 768px) {
