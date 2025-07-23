@@ -188,15 +188,15 @@ strong {
   left: 0;
   z-index: 999999;
   will-change: transform;
-  transition: transform 200ms linear;
+  /*transition: transform 200ms linear;*/
 }
 
 .navbar[class*="-unpinned"] {
-  transform: translate(0, -150%);
+  /*transform: translate(0, -150%);*/
 }
 
 .navbar[class*="-pinned"] {
-  transform: translate(0, 0);
+  /*transform: translate(0, 0);*/
 }
 
 .navbar[class*="headroom--not-top"] {
