@@ -366,8 +366,10 @@ strong {
 
 .dark-mode .card {
   background-color: transparent;
-  border: 3px solid grey; /* Thick grey border */
-  box-shadow: 0 0 10px grey; /* Blur effect */
+  border: 3px solid grey;
+  /* Thick grey border */
+  box-shadow: 0 0 10px grey;
+  /* Blur effect */
 }
 
 .dark-mode .owl-carousel .owl-nav button.owl-next,
@@ -534,8 +536,8 @@ strong {
 }
 
 .social-links .uil {
-  color: #f7f3f3;
-  font-size: 20px;
+  color: #a8a8a8;
+  font-size: 40px;
   display: block;
   margin: 5px 0;
 }
@@ -654,6 +656,11 @@ strong {
 }
 
 /* === Grid and base layout === */
+.progress-content :root {
+  --body-pad-top: 70px;
+  margin: 0;
+  padding: 70;
+}
 
 #progress-nav :root {
   --highlight: #91cb3e;
@@ -795,7 +802,7 @@ section:last-of-type p:last-of-type {
 
 #progress-nav .col-sm-3 {
   position: sticky;
-  top: 0;
+  top: 75px;
   height: 100vh;
   align-self: flex-start;
 }
@@ -1272,7 +1279,7 @@ section:last-of-type p:last-of-type {
   }
 }
 
-@media (max-width: 765px){
+@media (max-width: 765px) {
   .toc {
     display: none;
   }

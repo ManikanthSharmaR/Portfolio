@@ -338,23 +338,22 @@
     <div class="col-lg-8 mx-auto" style="text-align: center; padding-bottom: 60px;">
       <h2>Interested to work together?</h2>
     </div>
-    <div class="container">
-      <div class="row">
+    <div class="container d-lg-flex">
+      <div class="col-lg-5 mr-lg-5 col-12">
+        <div class="google-map w-100">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15548.420911354959!2d80.16999522525693!3d13.028970502121341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260d4675988f1%3A0x6e9901d3538a0db4!2sRamapuram%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1745302924287!5m2!1sen!2sin"
+            width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
 
-        <div class="col-lg-5 mr-lg-5 col-12">
-          <div class="google-map w-100">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15548.420911354959!2d80.16999522525693!3d13.028970502121341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260d4675988f1%3A0x6e9901d3538a0db4!2sRamapuram%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1745302924287!5m2!1sen!2sin"
-              width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-
-          <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+        <!-- 
+           <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
             <div class="contact-info-item">
               <h3 class="mb-3 text-white">Say Namaste</h3>
               <p class="footer-text mb-0">+91 97911 06083</p>
               <p><a href="manikanth.sharma.r@gmail.com">manikanth.sharma.r@gmail.com</a></p>
             </div>
-            <!-- 
+            
             <ul class="social-links">
               <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a>
               </li>
@@ -364,36 +363,29 @@
               </li>
             </ul>
             -->
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-12">
-          <div class="contact-form">
-            <h2 class="mb-4">Let's talk</h2>
-
-            <form action="" method="get">
-              <div class="row">
-                <div class="col-lg-6 col-12">
-                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                </div>
-
-                <div class="col-lg-6 col-12">
-                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                </div>
-
-                <div class="col-12">
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                </div>
-
-                <div class="ml-lg-auto col-lg-5 col-12">
-                  <input type="submit" class="form-control submit-btn" value="Send Message">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-
       </div>
+      <div class="col-lg-6 col-12">
+        <div class="contact-form">
+          <h3 class="mb-4">Let's Connect</h3>
+
+          <form action="" method="get">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <h4 style="font-weight: normal;">+91 97911 06083</h4>
+                <h4 style="font-weight: normal;"><a href="manikanth.sharma.r@gmail.com">manikanth.sharma.r@gmail.com</a>
+                </h4>
+              </div>
+              <div class="col-12">
+                <ul class="social-links d-lg-flex">
+                  <a href="https://www.linkedin.com/in/manikanth-sharma-r-02b354100/" class="uil uil-briefcase" data-toggle="tooltip" data-placement="bottom"
+                    title="LinkedIn"></a>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
@@ -410,17 +402,6 @@
       </div>
     </div>
   </footer>
-  <script>
-    //theme preference
-    function toggleTheme() {
-      const body = document.body;
-      body.classList.toggle("dark-mode");
-
-      // Save preference
-      const isDark = body.classList.contains("dark-mode");
-      localStorage.setItem("theme", isDark ? "dark" : "light");
-    }
-  </script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
